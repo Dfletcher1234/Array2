@@ -31,6 +31,16 @@ friends = {jon: 30, mary: 20, joseph: 10}
 
 # p artists[0..1]
 
-puts "#{movies.keys[0]} came out in #{movies.values[0]}"
-puts "#{movies.keys[1]} came out in #{movies.values[1]}"
-puts "#{movies.keys[2]} came out in #{movies.values[2]}"
+# puts "#{movies.keys[0]} came out in #{movies.values[0]}"
+# puts "#{movies.keys[1]} came out in #{movies.values[1]}"
+# puts "#{movies.keys[2]} came out in #{movies.values[2]}"
+
+# p age.reverse.sort
+
+# p movies[:Beauty_and_the_beat] = 1991.2017
+# p movies
+
+
+# p age.max {20}
+
+# p age.max
