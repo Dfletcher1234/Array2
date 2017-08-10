@@ -24,7 +24,13 @@ friends = {jon: 30, mary: 20, joseph: 10}
 # coin.reverse
 #
 # p cities[:toronto]
+#
+# puts "I think #{artists[0]} are great"
+# puts "I think #{artists[1]} are great"
+# puts "I think #{artists[2]} are great"
 
-puts "I think #{artists[0]} are great"
-puts "I think #{artists[1]} are great"
-puts "I think #{artists[2]} are great"
+# p artists[0..1]
+
+puts "#{movies.keys[0]} came out in #{movies.values[0]}"
+puts "#{movies.keys[1]} came out in #{movies.values[1]}"
+puts "#{movies.keys[2]} came out in #{movies.values[2]}"
