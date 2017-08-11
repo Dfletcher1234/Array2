@@ -48,3 +48,33 @@ friends = {jon: 30, mary: 20, joseph: 10}
 # p coin.count
 
 # p artists.delete_at(2)
+
+# p cities[:toronto] = 2
+
+# p SUM?????
+
+# P WORDS
+
+# p fcolours[1..2]
+
+# p fcolours << 'pink' , 'grey'
+
+
+# p age.collect { |x| x + 1}
+
+dmovies = {
+  :"1999" => ["Matrix", "Star", "Ep","Mum"]
+  :"2009" => ["Av", "trek", "dis"]
+  :"2019" => ["train", "toy", "wars", "9"]
+
+}
+line1 = [1, 2, 3]
+line2 = [4, 5, 6]
+line3 = [7, 8, 9]
+line4 = ["*", 0, "#"]
+
+acountries = [
+  "Canada" = { continent: "NA", island: "No"}
+  "England" = {continent: "Europe", island: "yes"}
+  "Brazil" = {continent: "SA", island: "yes"}
+]
