@@ -88,4 +88,53 @@ friends = {jon: 30, mary: 20, joseph: 10}
 # num = [*1..50]
 # p num.each.sum
 
-# num2 = ([*1..50 ]* 3).sort
+# num = [1..50] * 3
+
+
+
+
+# expenses = [250.00, 7.95, 30.95, 16.50]
+# # p expenses.sum
+# texpenses = 305.4
+#
+# exp = [305.3]
+#
+# def things (exp)
+# exp = [305.3]
+#
+#
+# end
+#
+# p things(exp)*2
+#
+#
+#
+#
+  # grocery_list = ["milk", "eggs", "carrots", "bread"]
+
+
+ # grocery_list.each do |grocery_item|
+ #   puts "*" + grocery_item
+ # end
+
+ grocery_list = ["milk", "eggs", "carrots", "bread"]
+
+grocery_list << "rice"
+
+#
+# def print_groceries(g)
+#   g.each do |grocery_item|
+#     puts "*" + grocery_item
+#   end
+# end
+#
+# print_groceries(grocery_list)
+
+ # p grocery_list.count
+ # grocery_list << "bananas"
+
+if grocery_list.include? "bananas"
+  puts "You do not need bananas"
+else
+  puts "you need bananas"
+end
