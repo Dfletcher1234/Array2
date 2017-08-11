@@ -122,19 +122,21 @@ friends = {jon: 30, mary: 20, joseph: 10}
 grocery_list << "rice"
 
 #
-# def print_groceries(g)
-#   g.each do |grocery_item|
-#     puts "*" + grocery_item
-#   end
-# end
-#
-# print_groceries(grocery_list)
+def print_groceries(g)
+  g.each do |grocery_item|
+    puts "*" + grocery_item
+  end
+end
+
+print_groceries(grocery_list.sort)
 
  # p grocery_list.count
  # grocery_list << "bananas"
 
-if grocery_list.include? "bananas"
-  puts "You do not need bananas"
-else
-  puts "you need bananas"
-end
+# if grocery_list.include? "bananas"
+#   puts "You do not need bananas"
+# else
+#   puts "you need bananas"
+# end
+
+# puts grocery_list.sort
