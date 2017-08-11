@@ -44,3 +44,7 @@ friends = {jon: 30, mary: 20, joseph: 10}
 # p age.max {20}
 
 # p age.max
+
+# p coin.count
+
+# p artists.delete_at(2)
