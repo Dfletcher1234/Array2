@@ -62,19 +62,30 @@ friends = {jon: 30, mary: 20, joseph: 10}
 
 # p age.collect { |x| x + 1}
 
-dmovies = {
-  :"1999" => ["Matrix", "Star", "Ep","Mum"]
-  :"2009" => ["Av", "trek", "dis"]
-  :"2019" => ["train", "toy", "wars", "9"]
+# dmovies = {
+#   :"1999" = ["Matrix", "Star", "Ep","Mum"]
+#   :"2009" = ["Av", "trek", "dis"]
+#   :"2019" = ["train", "toy", "wars", "9"]
+#
+# }
+# line1 = [1, 2, 3]
+# line2 = [4, 5, 6]
+# line3 = [7, 8, 9]
+# line4 = ["*", 0, "#"]
 
-}
-line1 = [1, 2, 3]
-line2 = [4, 5, 6]
-line3 = [7, 8, 9]
-line4 = ["*", 0, "#"]
+# acountries = [
+#   "Canada" = { continent: "NA", island: "No"}
+#   "England" = {continent: "Europe", island: "yes"}
+#   "Brazil" = {continent: "SA", island: "yes"}
+# ]
 
-acountries = [
-  "Canada" = { continent: "NA", island: "No"}
-  "England" = {continent: "Europe", island: "yes"}
-  "Brazil" = {continent: "SA", island: "yes"}
-]
+# 20.times do
+#   puts "Skate"
+# end
+
+# p times = ["this"] * 20
+
+# num = [*1..50]
+# p num.each.sum
+
+# num2 = ([*1..50 ]* 3).sort
